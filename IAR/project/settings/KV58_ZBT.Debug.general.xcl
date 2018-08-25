@@ -1,0 +1,13 @@
+"D:\Program Files (x86)\IAR Systems\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR Systems\arm\bin\armjlink2.dll" 
+
+"E:\学习区\智能车\十三届\国赛\开源程序\project\Debug\Exe\KV58_ZBT.out" 
+
+--plugin="D:\Program Files (x86)\IAR Systems\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files (x86)\IAR Systems\arm\config\debugger\NXP\KV5x.dmac" 
+
+
+
+
