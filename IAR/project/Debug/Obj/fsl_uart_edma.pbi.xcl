@@ -1,73 +1,73 @@
-"E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\fsl\fsl_uart_edma.c"
+"C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\fsl\fsl_uart_edma.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\fsl
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\fsl
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\app
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\app
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\CMSIS
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\CMSIS
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\Control
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\Control
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\drivers
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\drivers
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\fsl
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\fsl
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\startup
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\startup
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\utilities
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\utilities
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\ugfx
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\ugfx
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\ugfx\drivers\gdisp\ILI9341
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\ugfx\drivers\gdisp\ILI9341
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\ugfx\src\gdisp
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\ugfx\src\gdisp
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\ugfx\src
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\ugfx\src
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\project\..\src\Control\menu
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\Control\menu
 -I
-D:\Program Files (x86)\IAR Systems\arm\CMSIS\Core\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\Core\Include
 -I
-D:\Program Files (x86)\IAR Systems\arm\CMSIS\DSP\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\DSP\Include
 -I
-D:\Program Files (x86)\IAR Systems\arm\inc
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
-D:\Program Files (x86)\IAR Systems\arm\inc\c
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\app
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\app
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\CMSIS
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\CMSIS
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\Control
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\Control
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\drivers
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\drivers
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\fsl
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\fsl
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\startup
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\startup
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\utilities
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\utilities
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\ugfx
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\ugfx
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\ugfx\drivers\gdisp\ILI9341
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\ugfx\drivers\gdisp\ILI9341
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\ugfx\src\gdisp
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\ugfx\src\gdisp
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\ugfx\src
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\ugfx\src
 -I
-E:\学习区\智能车\十三届\国赛\程序\国赛5 终点线\src\Control\menu
+C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\Control\menu
 -I
-D:\Program Files (x86)\IAR Systems\arm\CMSIS\Core\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\Core\Include
 -I
-D:\Program Files (x86)\IAR Systems\arm\CMSIS\DSP\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\DSP\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -364,8 +364,8 @@ D:\Program Files (x86)\IAR Systems\arm\CMSIS\DSP\Include
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -DCPU_MKV58F1M0VLQ24=1
 -DARM_MATH_CM7=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="D:\\Program Files (x86)\\IAR Systems\\arm\\inc\\c\\DLib_Config_Full.h"
--D_DLIB_CONFIG_FILE_STRING="D:\\Program Files (x86)\\IAR Systems\\arm\\inc\\c\\DLib_Config_Full.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.30.1.114/W32 for ARM"
 -D__ICCARM_OLD_DEFINED_VAARGS__=1
 -D__VA_STACK_ALIGN__=8
