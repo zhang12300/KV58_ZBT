@@ -52,11 +52,11 @@ void Sysclk_init(void)
 
   MCG_C1 = MCG_C1_CLKS(2) | MCG_C1_FRDIV(3);     //选择外部时钟
   MCG_C5 = MCG_C5_PRDIV(PRDIV); //晶振为48M，分频结果范围要在8M~16M 此时为 48/(prdiv+1)
-  temp_reg = FMC_PFAPR;
+  temp_reg = FMC_PFAPR;//4001_f000h flash 访问保护寄存器FMC_PFAPR，将现有的值存入temp_reg变量，禁用之后重新恢复原值
 
   //禁止预取
   FMC_PFAPR |= FMC_PFAPR_M3PFD_MASK | FMC_PFAPR_M2PFD_MASK
-    | FMC_PFAPR_M1PFD_MASK | FMC_PFAPR_M0PFD_MASK;
+    | FMC_PFAPR_M1PFD_MASK | FMC_PFAPR_M0PFD_MASK;//这些位控制是否启用预取对数为基础的逻辑要求 Master 转换开关. 此字段进 一步限定了 PFBnCR[BxDPE,BxIPE]位 
   //MCG=PLL, system (CPU) clock= MCG,
   SIM_CLKDIV1 =  SIM_CLKDIV1_OUTDIV1(0)    //system (CPU) clock		//275
                | SIM_CLKDIV1_OUTDIV2(1)    //Fast Peripheral clock	//137.5
@@ -72,10 +72,10 @@ void Sysclk_init(void)
   MCG_C1=0x00;
   while (((MCG_S & MCG_S_CLKST_MASK) >> MCG_S_CLKST_SHIFT) != 0x3){};   //等待MCGOUTCLK切换到PLL输出
 
-  core_clk_khz = 48*1000*(VDIV+16)/(PRDIV+1)/2;
-  fastperipheral_clk_khz = core_clk_khz/2;
-  flexbus_clk_khz = core_clk_khz/4;
-  bus_clk_khz = core_clk_khz/10;
+  core_clk_khz = 48*1000*(VDIV+16)/(PRDIV+1)/2;//core_clk=48*30/3/2=240MHz
+  fastperipheral_clk_khz = core_clk_khz/2;//fastperipheral=120Mhz
+  flexbus_clk_khz = core_clk_khz/4;//flexbus_clock=60MHz
+  bus_clk_khz = core_clk_khz/10;//busclock=24MHz
 }
 
 int main(void) {
