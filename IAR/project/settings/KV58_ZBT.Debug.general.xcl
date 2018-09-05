@@ -1,12 +1,12 @@
-"D:\Program Files (x86)\IAR Systems\arm\bin\armproc.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armproc.dll" 
 
-"D:\Program Files (x86)\IAR Systems\arm\bin\armjlink2.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armjlink2.dll" 
 
-"E:\学习区\智能车\十三届\国赛\开源程序\project\Debug\Exe\KV58_ZBT.out" 
+"C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\Debug\Exe\KV58_ZBT.out" 
 
---plugin="D:\Program Files (x86)\IAR Systems\arm\bin\armbat.dll" 
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armbat.dll" 
 
---device_macro="D:\Program Files (x86)\IAR Systems\arm\config\debugger\NXP\KV5x.dmac" 
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\config\debugger\NXP\KV5x.dmac" 
 
 
 
