@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.general.xcl" --backend -f "C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.driver.xcl" 
+& "D:\Program Files (x86)\IAR Systems\common\bin\cspybat" -f "E:\学习区\智能车\十三届\国赛\开源程序\project\settings\KV58_ZBT.Debug.general.xcl" --backend -f "E:\学习区\智能车\十三届\国赛\开源程序\project\settings\KV58_ZBT.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.driver.xcl" 
+& "D:\Program Files (x86)\IAR Systems\common\bin\cspybat" -f "E:\学习区\智能车\十三届\国赛\开源程序\project\settings\KV58_ZBT.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\学习区\智能车\十三届\国赛\开源程序\project\settings\KV58_ZBT.Debug.driver.xcl" 
 }
