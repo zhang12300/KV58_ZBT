@@ -1,73 +1,73 @@
-"C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\drivers\GPIO.c"
+"D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\drivers\GPIO.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\drivers
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\drivers
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\app
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\app
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\CMSIS
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\CMSIS
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\Control
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\Control
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\drivers
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\drivers
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\fsl
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\fsl
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\startup
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\startup
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\utilities
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\utilities
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\ugfx
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\ugfx
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\ugfx\drivers\gdisp\ILI9341
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\ugfx\drivers\gdisp\ILI9341
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\ugfx\src\gdisp
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\ugfx\src\gdisp
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\ugfx\src
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\ugfx\src
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\project\..\src\Control\menu
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\project\..\src\Control\menu
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\Core\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\Core\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\DSP\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\DSP\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc\c
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\app
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\app
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\CMSIS
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\CMSIS
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\Control
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\Control
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\drivers
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\drivers
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\fsl
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\fsl
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\startup
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\startup
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\utilities
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\utilities
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\ugfx
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\ugfx
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\ugfx\drivers\gdisp\ILI9341
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\ugfx\drivers\gdisp\ILI9341
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\ugfx\src\gdisp
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\ugfx\src\gdisp
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\ugfx\src
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\ugfx\src
 -I
-C:\SPB_Data\learngit\learngithub\KV58_ZBT\IAR\src\Control\menu
+D:\_58_Cross_New\ZBT_KV58_Noface_2.0\src\Control\menu
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\Core\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\Core\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\DSP\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\DSP\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -364,8 +364,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\DSP\Include
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -DCPU_MKV58F1M0VLQ24=1
 -DARM_MATH_CM7=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.30.1.114/W32 for ARM"
 -D__ICCARM_OLD_DEFINED_VAARGS__=1
 -D__VA_STACK_ALIGN__=8
